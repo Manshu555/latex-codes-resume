@@ -1,0 +1,264 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Manshu Jaiswal} \\ \vspace{1pt}
+    Bilaspur, Chhattisgarh 495330 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 9907489679~ \href{mailto:manshujaiswal555@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{manshujaiswal555@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/manshu-jaiswal/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/manshu-jaiswal}}  ~
+    \href{https://github.com/Manshu555}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Manshu555}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology and Management, Gwalior 
+}{June 2023 -- June 2028}
+      {Dual degree : B.Tech + M.tech in Information Technology
+}{Gwalior , Madhya Pradesh
+}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Structures
+                \item Machine Learning
+                \item Operating Systems
+                \item Database Management
+                \item Artificial Intelligence
+                \item  Discrete Mathematics
+                \item Graph Theory
+                \item Computer Networks
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+  %-----------ACADEMICS-----------
+\section{Academics}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt, parsep=0pt]
+  \small{\item{
+    \textbf{B.Tech + M.tech in Information Technology \hfill \textit{} \\
+    CGPA: 8.19 / 10 \hfill  \\
+  }}
+  \item Class 12th: 95\% 
+  \item JEE Mains: 98.5 percentile
+  \item CGPET: All India Rank 13, OBC Rank 3
+  \resumeItem{CUET: Scored \textbf{99.65 percentile in Physics}, \textbf{99.10 in Chemistry}, and \textbf{96.94 in Computer Science}.}
+\end{itemize}
+\vspace{-10pt}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt, parsep=0pt]
+ % \item LeetCode: SQL and Pandas badges
+  \item \href{https://www.codechef.com/users/manshu_555}{CodeChef}: 3-star rating (1650)
+\item \href{https://codeforces.com/profile/Manshu47}{Codeforces}: 1239 rating (Pupil)
+\item \href{https://leetcode.com/u/Manshu47}{\textbf{LeetCode}}: Solved \textbf{989+ problems} and achieved a \textbf{1926 rating (Knight)}.
+
+
+  \item Ranked 22\textsuperscript{nd} in the Weekly Coding Challenge on Unstop.
+  \item NCAT 2025 – Top 0.38\% Rank (1732 out of 460,000 candidates)
+\end{itemize}
+\vspace{-16pt}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{VIONNA - Vision-Integrated Observation Network for Neural-Based Attendance} $|$ \href{https://github.com/Manshu555/VIONNA}{(\faGithub\ \underline{Repository})}}{May 2025}
+      \resumeItemListStart
+  \resumeItem{\textbf{Tech Stack:} \emph{Python ,Tensorflow, CNN, OpenCV, Keras, YOLOv8, MediaPipe, Pandas, NumPy, Matplotlib, SMTP}}
+  
+  \resumeItem{Built an end-to-end \textbf{intelligent attendance system} using \textbf{OpenCV}, \textbf{TensorFlow}, and \textbf{YOLOv8} to automate \textbf{facial recognition}, \textbf{fake attendance detection}, and \textbf{liveliness verification}, reducing manual intervention by \textbf{over 90\%}.}
+  
+  \resumeItem{Integrated a custom \textbf{LLM-powered analytics agent} via the \textbf{Together API} to generate \textbf{interactive Q\&A}, \textbf{summaries}, and \textbf{visualizations} from over \textbf{6 file formats}, increasing reporting efficiency by \textbf{3×}.}
+  
+  \resumeItem{Automated \textbf{daily and weekly email reporting} using \textbf{SMTP} and \textbf{custom scheduling logic}, improving attendance transparency and engagement for \textbf{100+ class sessions}.}
+\resumeItemListEnd
+
+      \vspace{-13pt}
+  \resumeProjectHeading
+      {\textbf{YT Chatbot} $|$ \href{https://github.com/Manshu555/yt_chatbot}{(\faGithub\ \underline{Repository})}}{June 2025}
+      \resumeItemListStart
+        \resumeItem{\emph{NLP, Flask, FastAPI, LangChain, HuggingFace, Transformers, ChromaDB, YouTube Transcript API, JavaScript}}
+        \resumeItem{Engineered an \textbf{AI-powered YouTube chatbot} using \textbf{FastAPI}, \textbf{HuggingFace Transformers}, and \textbf{ChromaDB} to enable \textbf{real-time semantic search} and \textbf{natural language question answering} over video transcripts, resulting in a 40\% increase in user engagement.}
+        \resumeItem{Optimized large language model (LLM) inference pipelines leveraging HuggingFace Transformers, reducing average response latency by 60\% while maintaining 99.99\% accuracy on video transcript queries.}
+        \resumeItem{Conducted \textbf{30+ usability tests} on the user interface, identifying \textbf{key improvement areas} and implementing changes that boosted \textbf{user satisfaction scores by 15\%}.}
+      \resumeItemListEnd
+\vspace{-6pt}
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, SQL, HTML/CSS, C, C++} \\
+     \textbf{Frameworks \& Tools}{: TensorFlow, Scikit-learn, LangChain, HuggingFace, Git, Pandas, NumPy, Matplotlib, OpenCV} \\
+     \textbf{Core Skills}{: \textbf{Core Skills}{: Generative AI, Retrieval-Augmented Generation (RAG), Feature Engineering, Time Series Analysis, Machine Learning, Deep Learning, Natural Language Processing, Reinforcement Learning, FastApi}
+} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+
+\resumeSubHeadingListStart
+
+    % 1. Social Media Team
+    \resumeSubheading{1. Social Media Team Member}{Dec 2023 -- Apr 2024}{Video Editor}{IIIT Gwalior}
+    \vspace{-3mm}
+    \resumeItemListStart
+        \resumeItem{Designed reusable video editing templates and standardized workflows, reducing repetitive editing tasks and saving approximately 10 hours per week while maintaining consistent branding across media content.}
+    \resumeItemListEnd
+
+    \vspace{-1mm}
+
+    % 2. Hardwired Hackathon
+    \resumeSubheading{2. Hardwired Hackathon}{Sept 2025 -- Oct 2025}{Senior Coordinator}{IIIT Gwalior}
+    \vspace{-3mm}
+    \resumeItemListStart
+        \resumeItem{Led and mentored a team of \textbf{30+ volunteers} in organizing a robotics and hardware hackathon, managing event planning, logistics, participant coordination, and on-ground execution.}
+
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+\end{document}
